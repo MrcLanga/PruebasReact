@@ -18,12 +18,12 @@ function App() {
 
   return (
     <div className="App">
-      <div className="logocontainer">
+      <div className="logocont">
         <img className="logo" 
           src={logo}
           alt="Logo" />
       </div>
-      <div className="padre">
+      <div className="contadorcont">
 
           <Contador 
             total={total} />
